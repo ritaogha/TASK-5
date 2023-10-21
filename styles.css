@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    background: linear-gradient(173deg, rgba(84, 35, 215, 0.24) -20.49%, rgba(31, 61, 167, 0.00) 93.7%);
+    font-family: 'Inter', sans-serif;
+}
+figure {
+    width: 50%;
+}
+.right {
+    width: 50%;
+    margin-right: 62px;
+    margin-left: 26px;
+}
+img {
+    width: 100%;
+}
+h1 {
+    color: #222;
+    text-align: center;
+    /* font-family: Inter; */
+    font-size: 56px;
+    /* font-style: normal; */
+    font-weight: 700;
+    /* line-height: normal; */
+    text-transform: capitalize; 
+    margin-bottom: 56px;
+}
+button {
+    display: flex;
+    padding: 20px 24px;
+    width: 100%;
+    font-size: 28px;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 48px;
+    /* align-self: stretch; */
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.40);
+    background-color: transparent;
+    cursor: pointer;
+}
+p {
+    color: #222;
+    text-align: center;
+    margin: 48px;
+    /* font-family: Inter; */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 150% */
+    letter-spacing: 0.5px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+input {
+    padding: 20px 24px;
+    margin: 24px 0;
+    /* margin-bottom: 54px; */
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.40);
+    font-size: 24px;
+    background-color: transparent;
+}
+#button {
+    /* border-radius: 15px; */
+    background: #4C14E2;
+    color: white;
+    cursor: pointer;
+}
